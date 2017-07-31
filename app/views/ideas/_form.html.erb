@@ -9,7 +9,7 @@
       <% end %>
       </ul>
     </div>
-    <%= form.file_field :picture, id: :idea_picture %>
+    
   <% end %>
 
   <div class="field">
@@ -21,8 +21,7 @@
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :picture %><br>
-    <%= f.text_field :picture %>
+  <%= form.file_field :picture %>
   </div>
   <div class="actions">
     <%= f.submit %>
