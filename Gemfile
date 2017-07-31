@@ -49,7 +49,7 @@ group :development do
   gem 'spring'
 end
 
-group :development do
+group :production do
   # Use Postgres for Heroku
   gem 'pg', '0.18.4'
 end
